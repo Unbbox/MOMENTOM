@@ -1,0 +1,42 @@
+body {
+    color:lightskyblue;
+    /* 이미지 반복 제거, 이미지 중앙 배치 */
+    background: no-repeat center; 
+    /* 배경화면을 화면 꽉 채우기  */
+    background-size: cover;
+    /* 화면 비율 변경 시 여백 제거 */
+    height:100vh;
+
+} 
+
+#weather {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2em;
+}
+
+.todo_main {
+    margin-left: auto;
+    margin-top: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#clock {
+    margin: 3px;
+    font-size: 5em;
+}
+
+.date_today {
+    margin: 2px;
+    font-size: 2em;
+}
+
+#greeting {
+    margin: 3px;
+    font-size: 25px;
+}
