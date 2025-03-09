@@ -1,5 +1,5 @@
 // openweathermap.org : 날씨 데이터에 관한 정보를 가져올 수 있는 API 사이트
-const API_KEY = "3c6fe5aa633ab2f8756a793fc135aafd";
+const API_KEY = "9f7bce86d0cfd790bdae4f43ed290b08";
 
 function onGeoOk(position) {
     const lat = position.coords.latitude;
