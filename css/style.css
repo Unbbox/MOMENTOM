@@ -26,6 +26,11 @@ body {
     display: none;
 }
 
+#quote {
+    position: absolute;
+    bottom: 0;
+}
+
 #clock {
     margin: 3px;
     font-size: 5em;
