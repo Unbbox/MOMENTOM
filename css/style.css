@@ -1,61 +1,73 @@
 @font-face {
-      font-family: "GmarketSansMedium";
-      src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
-      font-weight: normal;
-      font-style: normal;
+  font-family: "GmarketSansMedium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-    color: white;
-    /* 이미지 반복 제거, 이미지 중앙 배치 */
-    background: no-repeat center; 
-    /* 배경화면을 화면 꽉 채우기  */
-    background-size: cover;
-    /* 화면 비율 변경 시 여백 제거 */
-    height:100vh;
-
-} 
+  color: white;
+  /* 이미지 반복 제거, 이미지 중앙 배치 */
+  background: no-repeat center;
+  /* 배경화면을 화면 꽉 채우기  */
+  background-size: cover;
+  /* 화면 비율 변경 시 여백 제거 */
+  height: 100vh;
+}
 
 #weather {
-    position: fixed;
-    top: 0;
-    right: 0;
-    
-    padding: 10px 10px;
-    
-    display: flex;
-    justify-content: space-between;
-    
-    font-size: 1.1em;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  padding: 10px 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 1.1em;
 }
 
 .todo_main {
-    margin-left: auto;
-    margin-top: auto;
-    text-align: center;
-    justify-content: center;
+  margin-left: auto;
+  margin-top: auto;
+  text-align: center;
+  justify-content: center;
 }
 
 .hidden {
-    display: none;
+  display: none;
+}
+
+#todo-form input {
+  width: 50vw;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "GmarketSansMedium";
 }
 
 #quote {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 #clock {
-    margin: 3px;
-    font-size: 5em;
+  margin: 3px;
+  font-size: 5em;
 }
 
 .date_today {
-    margin: 2px;
-    font-size: 2em;
+  margin: 2px;
+  font-size: 2em;
 }
 
 #greeting {
-    margin: 3px;
-    font-size: 25px;
+  margin: 3px;
+  font-size: 25px;
 }
